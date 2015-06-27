@@ -16,3 +16,6 @@ class Server(object):
     def close(slef):
         pass
 
+    def handle(self):
+        pass
+
