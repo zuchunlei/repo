@@ -18,11 +18,11 @@
 ####4. 向已关闭的Socket中发送数据。（send与close调用）
 > ![socket一端close][image4]
 > *tcp一端调用close关闭。*
-> ![socket另一端调用send向已关闭的socket发生数据][image5]
+> ![][image5]
 > *socket另一端调用send向已关闭的socket发送数据*
-> ![socket一端调用close关闭][image6]
+> ![][image6]
 > *tcp一端调用close关闭，当前socket处于FIN_WAIT2定时器周期。*
-> ![在已关闭socket的FIN_WAIT2定时器周期内调用close][image7]
+> ![][image7]
 > *tcp另一端在FIN_WAIT2定时器超时之前调用close方法，正常返回ACK确认包。*
 
 
