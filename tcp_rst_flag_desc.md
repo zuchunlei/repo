@@ -32,7 +32,7 @@
 > *tcp另一端在FIN_WAIT2超时后调用close*  
 > **如果调用close()方法，关闭的Socket代表的链接依然处于FIN_WAIT2状态，则正常返回ACK确认包。如果状态FIN_WAIT2的超时，则close()调用后【向FIN_WAIT2超时状态的连接发送FIN】，依然会返回RST包。**
 
- [image1]:http://i12.tietuku.com/6b21227ba40c2147.png "连接未监听端口"
+ [image1]:http://i5.tietuku.com/721e9627efd551fd.gif "连接未监听端口"
  [image2]:http://i12.tietuku.com/4ff30084a02ac36f.png "socket recv-q存在数据"
  [image3]:http://i12.tietuku.com/827ab12bc4cdc1e1.png "关闭socket"
  [image4]:http://i5.tietuku.com/4033b06f9c7e120a.png "socket一端close"
